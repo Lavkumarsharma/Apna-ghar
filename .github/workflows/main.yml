@@ -3,6 +3,8 @@ on: push
 jobs:
   my-jobs:
     runs-on: ubuntu-latest
-      steps:
-        name:
-          run: echo hello-padosi
+    steps:
+      - name: hmara-ilaka
+        run: echo hello-padosi
+
+
