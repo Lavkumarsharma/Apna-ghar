@@ -1,0 +1,8 @@
+name: hello-padosi
+on: push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+      steps:
+        name:
+          run: echo hello-padosi
